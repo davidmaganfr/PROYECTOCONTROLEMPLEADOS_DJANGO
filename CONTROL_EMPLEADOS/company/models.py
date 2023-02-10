@@ -16,7 +16,6 @@ class Job(models.Model):
     def __str__(self):
         return self.title 
 
-
 class Country(models.Model):
     name= models.CharField(max_length=15, blank=False, null=False)
     country_code= models.CharField(max_length=6, blank=False, null=False)
